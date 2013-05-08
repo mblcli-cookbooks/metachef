@@ -1,3 +1,5 @@
+require File.expand_path('discovery.rb', File.dirname(__FILE__))'
+
 module ClusterChef
   ::ClusterChef::Discovery.class_eval do
     # --------------------------------------------------------------------------
